@@ -1,27 +1,40 @@
 body {
-  margin: 0%;
+    margin: 0%;
+}
+
+.nav-left-2 {
+    color: #f2a71b;
 }
 
 .nav-main {
-  background-color: orange;
-  display: flow-root;
+    background-color: #025e73;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #bfb78f;
+    font-weight: bold;
+    font-family: 'Oswald', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+
+.nav-left-1 {
+    display: flex;
+    align-items: center;
 }
 
 .nav-elements {
-  display: flex;
-  list-style-type: none;
-  justify-content: right;
-  gap: 30px;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
 }
 
 
-.sign-btn{
-   margin-right: 50px;
-  border: 2px inherit;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) ;
-  
+
+.sign-btn:hover {
+    background-color: #f2a71b;
 }
 
-.sign-btn:hover{
-    background-color: yellowgreen;
+a{
+    text-decoration: none;
+    color: #bfb78f;
 }
